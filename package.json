@@ -1,0 +1,21 @@
+{
+  "name": "multi-agent-chatbot-platform",
+  "version": "0.1.0",
+  "description": "Multi-agent chatbot platform MVP",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "vitest run",
+    "build": "tsc && vite build",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.38.0",
+    "husky": "^8.0.3",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1",
+    "vitest": "^0.30.1"
+  }
+}
